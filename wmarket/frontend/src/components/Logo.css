@@ -1,0 +1,40 @@
+.logo {
+  display: flex;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.logoimg {
+  width: 100%;
+  height: auto;
+  margin: 15px;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 90%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    width: 70%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .logo {
+    width: 482px;
+    padding: 10px;
+  }
+}

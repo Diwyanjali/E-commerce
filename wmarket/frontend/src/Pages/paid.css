@@ -1,0 +1,121 @@
+.paid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1266px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center; /* Center align the contents */
+}
+
+.topic {
+  text-align: center;
+  margin-bottom: -50px;
+}
+
+.paid-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.paid-card-details,
+.profit-details {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.product-payment-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Adjust the width for the payment-info side */
+  gap: 2rem;
+  align-items: center; /* Center items vertically */
+}
+
+.product-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center align text under image */
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 0.5rem;
+}
+
+.payment-info p,
+.profit-details .profit-row span {
+  font-size: 1rem;
+  color: #666;
+}
+
+.payment-info strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.profit-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.submit-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pay-button {
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.order-details {
+  background-color: #81e4a5;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
+
+@media (max-width: 768px) {
+  .product-payment-grid {
+    grid-template-columns: 1fr;
+  }
+}

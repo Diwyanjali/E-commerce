@@ -1,0 +1,50 @@
+/* src/Hero.css */
+.Services-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.hero-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  background-color: white;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Services-container h1 {
+  color: black
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.line hr {
+  width: 70%;
+  border: solid 3px;
+  color: #cc0000;
+}
+
+.items h1{
+  display: flex;
+  align-items: end;
+  font-size: 2rem;
+}

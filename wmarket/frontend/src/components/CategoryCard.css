@@ -1,0 +1,26 @@
+.card {
+  width: 395.43px;
+  height: 256.48px;
+  /* top: 210.52px; */
+  /* left: 100.57px; */
+  border-radius: 5px;
+  margin: 0px;
+  justify-content: space-evenly;
+}
+.card-img {
+  width: 395.45px;
+  height: 256.48px;
+  object-fit: cover;
+}
+
+.text-center {
+  top: 530px;
+  left: 622px;
+  margin: 9px;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}

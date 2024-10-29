@@ -1,0 +1,240 @@
+.profile-container {
+  width: 555px;
+  margin: 15px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.profile-info,
+.card-bodyy {
+  text-align: left;
+  width: 100%;
+}
+.profile-item {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 6px;
+}
+
+.profile-item input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.profile-item input[type="date"] {
+  width: 100%;
+}
+
+.profile-item span.label {
+  font-weight: bold;
+}
+
+.forgot-password {
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+.profile-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  border-radius: 25px;
+  width: 177px;
+  height: 50px;
+}
+
+.save-btn {
+  background-color: #ffcc00;
+  border-radius: 25px;
+  width: 177px;
+  height: 50px;
+}
+
+.card-boddy {
+  background-color: #001e44;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin: 10px;
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    width: auto;
+    margin: 15px auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .profile-container {
+    width: auto;
+    margin: 15px 0px 20px 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-container {
+    width: auto;
+    margin: 15px 0px 0px 18px;
+  }
+}
+/* WH Table */
+.history-container {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding-bottom: 20%;
+}
+.history-heading {
+  font-size: 20px; /* Adjust to your preferred size */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.request-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.request-btn:hover {
+  background-color: #45a049;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+}
+
+.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.response-message {
+  text-align: center;
+  color: #f44336;
+  margin-bottom: 20px;
+}
+
+/* WR form */
+
+.withdrawal-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding-bottom: 10%;
+}
+
+.withdrawal-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.withdrawal-item {
+  margin-bottom: 15px;
+}
+
+.withdrawal-item input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.withdrawal-actions {
+  text-align: center;
+}
+
+.withdraw-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.withdraw-btn:hover {
+  background-color: #45a049;
+}
+
+.response-message {
+  margin-top: 10px;
+  text-align: center;
+  color: #f44336;
+}
+
+.icon-accepted {
+  color: green;
+  font-size: 1.5em;
+}
+
+.icon-rejected {
+  color: red;
+  font-size: 1.5em;
+}
+
+.icon-pending {
+  color: blue;
+  font-size: 1.5em;
+}
+

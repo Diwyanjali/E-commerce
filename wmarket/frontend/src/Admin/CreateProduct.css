@@ -1,0 +1,25 @@
+/* CreateProduct.css */
+
+.product-container {
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.form-label {
+  font-weight: bold;
+  color: black;
+}
+
+
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
